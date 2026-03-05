@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー - LifeLogAI</title>
+<style>
+  body { font-family: -apple-system, sans-serif; max-width: 700px; margin: 0 auto; padding: 20px; line-height: 1.8; color: #333; }
+  h1 { font-size: 1.5em; border-bottom: 2px solid #45B7D1; padding-bottom: 8px; }
+  h2 { font-size: 1.2em; margin-top: 2em; }
+  p, li { font-size: 0.95em; }
+  .updated { color: #888; font-size: 0.85em; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+  th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+  th { background: #f5f5f5; }
+</style>
+</head>
+<body>
+<h1>プライバシーポリシー</h1>
+<p class="updated">最終更新日: 2026年3月5日</p>
+
+<h2>1. はじめに</h2>
+<p>LifeLogAI（以下「本アプリ」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めます。本ポリシーでは、収集する情報、利用目的、保護方法について説明します。</p>
+
+<h2>2. 収集する情報</h2>
+<table>
+<tr><th>情報の種類</th><th>内容</th><th>目的</th></tr>
+<tr><td>アカウント情報</td><td>Apple ID / Google アカウント（認証トークン）</td><td>ログイン・データ同期</td></tr>
+<tr><td>プロフィール</td><td>ニックネーム、年齢、性別、職業</td><td>パーソナライズ</td></tr>
+<tr><td>日記データ</td><td>テキスト、記録日時</td><td>感情分析・振り返り</td></tr>
+<tr><td>気分データ</td><td>気分の記録、日時</td><td>気分の可視化</td></tr>
+<tr><td>診断結果</td><td>Big Five スコア、MBTI タイプ</td><td>性格分析・成長の記録</td></tr>
+<tr><td>利用データ</td><td>実績、レベル、ストリーク</td><td>ゲーミフィケーション</td></tr>
+</table>
+
+<h2>3. AI処理について</h2>
+<p>本アプリは、日記テキストの感情分析および性格診断の解説生成のためにAI（Anthropic社のClaude API）を利用しています。送信されるデータは分析処理のみに使用され、AIの学習データとしては使用されません。</p>
+
+<h2>4. データの保存</h2>
+<ul>
+<li><strong>端末内</strong>: データは端末のローカルストレージ（SwiftData）に保存されます。</li>
+<li><strong>クラウド</strong>: ログインしたユーザーのデータはSupabase（クラウドサービス）に暗号化して同期されます。</li>
+<li><strong>キーチェーン</strong>: 認証情報やAPIキーはiOSのキーチェーンに安全に保存されます。</li>
+</ul>
+
+<h2>5. 第三者への提供</h2>
+<p>以下の場合を除き、個人情報を第三者に提供することはありません。</p>
+<ul>
+<li>ユーザーの同意がある場合</li>
+<li>法令に基づく場合</li>
+<li>サービス提供に必要なインフラ事業者（Supabase、Anthropic）への委託</li>
+</ul>
+
+<h2>6. データの削除</h2>
+<p>ユーザーはアプリ内の設定からデータを削除できます。アカウントの削除を希望する場合は、下記のお問い合わせ先までご連絡ください。</p>
+
+<h2>7. セキュリティ</h2>
+<p>データの保護のために以下の対策を講じています。</p>
+<ul>
+<li>通信の暗号化（HTTPS/TLS）</li>
+<li>認証情報のキーチェーン保存</li>
+<li>クラウドデータのアクセス制御（Row Level Security）</li>
+</ul>
+
+<h2>8. 子どものプライバシー</h2>
+<p>本アプリは13歳未満のお子様を対象としていません。13歳未満のお子様のデータを意図的に収集することはありません。</p>
+
+<h2>9. ポリシーの変更</h2>
+<p>本ポリシーは必要に応じて更新されます。重要な変更がある場合はアプリ内で通知します。</p>
+
+<h2>10. お問い合わせ</h2>
+<p>プライバシーに関するお問い合わせは以下までご連絡ください。</p>
+<p>メール: lifelogai.app@gmail.com</p>
+</body>
+</html>
